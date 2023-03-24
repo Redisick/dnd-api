@@ -63,7 +63,7 @@ function search(html) {
 }
 
 app.get('/', async (req, res) => {
-    res.send('Welcome to DnD.su scraper API <3 Add /spells to the URL to get all spells.');
+    res.send('Welcome to DnD.su scraper API <3 try https://dnd-api.cyclic.app/spells/class12/1');
 });
 
 // get all spells
